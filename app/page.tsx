@@ -18,13 +18,13 @@ export default function Home() {
       <div className="flex flex-col items-center space-y-4">
         <textarea
           className="w-[300px] h-[100px] p-2 border border-gray-300 rounded"
-          placeholder="テキストを入力してください"
+          placeholder="テキストを入力してください part2"
         ></textarea>
         <button className="w-[100px] h-[40px] bg-blue-500 text-white rounded">
           次のページ
         </button>
         <div className="mt-4 text-center text-gray-700 cursor-pointer">
-          {/* ここに変換されたテキストが表示されます */}
+          {/* ここに変換されたテキストが表示されます ２*/}
         </div>
       </div>
     </main>
